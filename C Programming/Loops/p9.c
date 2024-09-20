@@ -1,32 +1,32 @@
 /*
 Write a c program to take row numbers from the user and print the following pyramid pattern.
 
-1
-1 0
-1 0 1
-1 0 1 0
-1 0 1 0 1
+    *
+   * *
+  * * *
+ * * * *
+* * * * *
 */
 #include<stdio.h>
 int main()
 {
-	int row,i,j;
+	int row,i,j,spc,k;
 	printf("\nEnter the row count = ");
 	scanf("%d",&row);
 	
+	spc = row-1;
+	
 	for(i=1;i<=row;i++)
 	{
+		for(k=spc;k>=1;k--)
+		{
+			printf(" ");
+		}
 		for(j=1;j<=i;j++)
 		{
-			if(j%2==0)
-			{
-				printf("0 ");
-			}
-			else
-			{
-				printf("1 ");
-			}
+			printf("* ");
 		}
+		spc--;
 		printf("\n");
 	}
 		
