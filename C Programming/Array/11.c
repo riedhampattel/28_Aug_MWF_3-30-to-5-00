@@ -1,4 +1,4 @@
-//Write a c program to take row and column numbers of 2D array and elements from the user and make one calculator with addition, subtraction and multiplication facilities using control statement.
+//Write a c program to take size of 2D array and elements from the user and make one calculator with addition, subtraction and multiplication facilities using control statement.
 #include<stdio.h>
 int main()
 {
