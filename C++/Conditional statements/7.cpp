@@ -13,11 +13,11 @@ int main()
 	cout<<"\nEnter any character = ";
 	cin>>ch;
 	
-	if((ch>=65 && ch<=90) || (ch>=97 && ch<=122))
+	if((ch>='A' && ch<='Z') || (ch>='a' && ch<='z'))
 	{
 		cout<<"\nYou have enetered an alphabet";
 	}
-	else if(ch>=48 && ch<=57)
+	else if(ch>='0' && ch<='9')
 	{
 		cout<<"\nYou have enetered a number";
 	}
