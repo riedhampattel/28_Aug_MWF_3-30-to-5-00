@@ -1,5 +1,6 @@
 #include<iostream>
 using namespace std;
+//hierarchical inheritance
 class Parent
 {
 	public :

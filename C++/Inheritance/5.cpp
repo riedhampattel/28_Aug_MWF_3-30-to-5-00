@@ -1,5 +1,6 @@
 #include<iostream>
 using namespace std;
+//hybrid inheritance
 class Parent
 {
 	public :
