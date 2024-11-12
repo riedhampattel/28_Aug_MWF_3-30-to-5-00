@@ -62,6 +62,8 @@ select * from employees where department_id in (90,60,50);
 
 select * from employees where department_id not in (90,60,50);
 
+select * from employees where (manager_id,department_id) in ((100,90),(102,60));
+
 select * from employees where commission_pct is not null;
 
 select * from employees where commission_pct is null;
