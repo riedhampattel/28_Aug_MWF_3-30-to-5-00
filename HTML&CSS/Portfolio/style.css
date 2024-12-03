@@ -197,3 +197,132 @@ section
 {
     font-size: 20px;
 }
+.contact-content
+{
+    font-size: 30px;
+    font-weight: 600;
+}
+.contact-content tr
+{
+    transition: 0.5s ease;
+}
+.contact-content tr:hover
+{
+    text-shadow: 0px 0px 15px brown;
+}
+hr
+{
+    width: 1200px;
+}
+iframe
+{
+    margin-top: 2rem;
+}
+@media(max-width:420px)
+{
+    *
+    {
+        background-color:white;
+        color: black;
+    }
+    body
+    {
+        width: 410px;
+        border: 1px solid brown;
+    }
+    a
+    {
+        background-color: transparent;
+    }
+    header
+    {
+        display: block;
+        width: 410px;
+        margin: 3rem 0rem 0rem 0rem;
+    }
+    nav
+    {
+        font-size: 14px;
+        width: 405px;
+        text-align: center;
+        margin-top: 15px;
+        margin-left: 4px;
+    }
+    nav a
+    {
+        margin-right: 5px;
+    }
+    .logo
+    {
+        text-align: center;
+    }
+    .main-content
+    {
+        margin: 3rem 0rem 0rem 0rem;
+    }
+    .content
+    {
+        font-size: 15px;
+        margin: 1rem 0rem 0rem 0rem;
+        width: 405px;
+    }
+    .social-icons
+    {
+        margin: 2rem 0rem 0rem 3.8rem;
+
+    }
+    .btn
+    {
+        margin: 15rem 0rem 5rem 4.6rem;
+    }
+    .image
+    {
+        margin: -22rem 0rem 0rem 3rem;
+    }
+    .image img
+    {
+        height: 200px;
+        width: 200px;
+    }
+    .service
+    {
+        margin-top: 3rem;
+    }
+    .service tr
+    {
+        font-size: 1rem;
+    }
+    .skill-container
+    {
+        display: grid;
+        width: 85%;
+        grid-template-columns: 1fr;
+        grid-gap: 4rem;
+        margin-left: 5rem;
+        margin-top: 5rem;
+    }
+    .edu-content
+    {
+        margin-top: 3rem;
+        border: 1px solid brown;
+    }
+    .edu-content
+    {
+        font-size: 1rem;
+    }
+    .contact-content
+    {
+        font-size: 20px;
+        font-weight: 600;
+        margin-top: 3rem;
+    }
+    hr
+    {
+        width: 380px;
+    }
+    iframe
+    {
+        margin-top: 1rem;
+        width: 400px;
+    }
+}
