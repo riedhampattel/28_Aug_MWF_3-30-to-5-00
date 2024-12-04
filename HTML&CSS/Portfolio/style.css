@@ -218,6 +218,39 @@ iframe
 {
     margin-top: 2rem;
 }
+.position
+{
+    color: brown;
+}
+.position::before
+{
+    content: "";
+    animation: 8s words infinite;
+}
+.position::after
+{
+    content: "";
+}
+@keyframes words
+{
+    0%,25%
+    {
+        content: "software developer";
+    }
+    25%,50%
+    {
+        content: "app developer";
+    }
+    50%,75%
+    {
+        content: "graphic designer";
+    }
+    75%,100%
+    {
+        content: "web developer";
+    }
+}
+
 @media(max-width:420px)
 {
     *
