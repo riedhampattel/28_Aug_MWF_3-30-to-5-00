@@ -225,7 +225,7 @@ iframe
 .position::before
 {
     content: "";
-    animation: 8s words infinite;
+    animation: 20s words infinite;
 }
 .position::after
 {
